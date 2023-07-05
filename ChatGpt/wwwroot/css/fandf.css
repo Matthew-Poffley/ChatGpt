@@ -1,0 +1,65 @@
+﻿body {
+    margin-bottom: 60px;
+    background: url('/lib/fandf.jpg');
+    background-position: top -120px right 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading {
+    font-size: 75px;
+    font-weight: bold;
+    margin: 50px;
+    color: white;
+    -webkit-text-stroke: 1px #7abceb;
+}
+
+.container-heading {
+    border-bottom: 1px solid #7abceb;
+    font-size: 20px;
+    color: #7abceb;
+    font-weight: 600;
+}
+
+.convo-container {
+    margin: 20px;
+    border: 1px solid #7abceb;
+    padding: 5px 20px;
+    background-color: #474747;
+}
+
+.conversation {
+    padding: 10px 0px;
+    height: 500px;
+    overflow: auto;
+    text-align: left;
+    color: #ed4a42;
+}
+
+.input-container {
+    padding: 10px;
+    border-top: 0px #7abceb solid;
+}
+
+.textbox {
+    width: 100%;
+    border-radius: 10px;
+    border: 0px #7abceb solid;
+    background-color: #7abceb;
+    color: black;
+}
+
+.script{
+    height:500px;
+    overflow:auto;
+    color:white;
+    text-align:left;
+}
+
+.paul {
+    color: #c9d7ff;
+}
+
+.dom {
+    color: #e1ffc9;
+}

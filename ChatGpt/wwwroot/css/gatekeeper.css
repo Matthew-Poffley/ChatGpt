@@ -1,0 +1,82 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background: url('/lib/Gate.jpg');
+    background-position: top -120px right 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading {
+    font-size: 75px;
+    font-weight: bold;
+    margin: 50px;
+    color: white;
+    -webkit-text-stroke: 1px #A33D38;
+}
+
+.container-heading {
+    border-bottom: 1px solid #A33D38;
+    font-size: 20px;
+    color: #ed4a42;
+    font-weight: 600;
+}
+
+.convo-container {
+    margin: 20px;
+    border: 1px solid #A33D38;
+    padding: 5px 20px;
+    background-color: #474747;
+}
+
+.conversation {
+    padding: 10px 0px;
+    height: 500px;
+    overflow: auto;
+    text-align: left;
+    color: #ed4a42;
+}
+
+.input-container {
+    padding: 10px;
+    border-top: 1px #A33D38 solid;
+}
+
+.textbox {
+    width: 100%;
+    border-radius: 10px;
+    border: 0px #A33D38 solid;
+    background-color: #A33D38;
+    color: white;
+}
+
+.button {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #A33D38;
+    color: white;
+    border: 0px;
+}
+
+    .button:hover {
+        background-color: #ed4a42;
+        color: white;
+    }

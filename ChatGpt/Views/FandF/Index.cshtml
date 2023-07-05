@@ -1,0 +1,24 @@
+﻿<head>
+    <link rel="stylesheet" href="~/css/fandf.css" asp-append-version="true" />
+</head>
+
+<div class="text-center">
+    <div class="heading">Fast And Furious</div>
+
+    <input type="hidden" id="convoHistory" />
+
+    <div id="text" class="convo-container">
+        <div id="heading" class="container-heading">Script</div>
+
+        <div class="row input-container">
+            <div class="col-12">
+                <input type="text" id="chatPrompt" class="textbox" placeholder="What would you like the script to be about"/>
+            </div>
+        </div>
+
+        <div id="script" class="script"></div>
+    </div>
+</div>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/js/fandf.js" asp-append-version="true"></script>

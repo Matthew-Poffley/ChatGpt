@@ -1,0 +1,27 @@
+﻿<head>
+    <link rel="stylesheet" href="~/css/gatekeeper.css" asp-append-version="true" />
+</head>
+
+<div class="text-center">
+    <div class="heading">Try get passed this guard</div>
+
+    <input type="hidden" id="convoHistory" />
+
+    <div id="text" class="convo-container">
+        <div id="heading" class="container-heading">Chat Log</div>
+        <div id="conversation" class="conversation">
+            You goal is for this guard to let you gain access to this castle. You will say whatever you type, if you would like to do stage directions please put them in *s
+        </div>
+        <div class="row input-container">
+            <div class="col-10">
+                <input type="text" id="chatPrompt" class="textbox" />
+            </div>
+            <div class="col-2">
+                <button id="send" class="button">Send</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/js/gatekeeper.js" asp-append-version="true"></script>
